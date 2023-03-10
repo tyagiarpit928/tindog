@@ -1,0 +1,182 @@
+body{
+     font-family: 'Montserrat';
+}
+
+h1{
+    font-family: 'Montserrat-Black'; 
+     font-size: 4rem;  
+     line-height: 1.5;
+     font-weight: bold;
+  
+  }
+
+h2{
+    font-family: 'montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3{
+    font-family: 'montserrat-bold';
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{   
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-list{
+    padding: 0 18px;
+
+}
+
+.navbar-link{
+    font-family: 'Montserrat-light';
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+   margin: 0px 8px;
+}
+
+.buttons{
+    margin: 5% 3% 5% 0%;
+    
+}
+
+.title-image{
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+  
+}
+
+.feat-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    padding: 1rem;
+}
+
+.icon:hover {
+color: #ff4c68;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.dog2{
+    width: 12%;
+    border-radius: 100%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+
+#only-images{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+}
+.logos{
+    width: 15%;
+    margin: 2%;
+}
+
+.card{
+    margin: 2%;
+    text-align: center;
+}
+
+#prices{
+    text-align: center;
+    margin: 3% 4%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    padding: 9%
+
+}
+
+.head1{
+    margin-bottom: 3%;
+}
+
+#lasth3{
+    font-family: 'Montserrat-Black';
+    font-size: 3.4rem;
+    line-height: 1.5;
+    font-weight:bold ;
+}
+
+#footer{
+    text-align: center;
+    padding: 6%;
+}
+
+.lasticons{
+    margin: 12px 12px;
+    padding-bottom: 6px;
+}  
+
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        width: 60%;
+        right: 10%;
+    }
+
+.lastbutt{
+    margin: 6%;
+}
+}
+
+.anapple{
+    padding-right: 6px;
+}
